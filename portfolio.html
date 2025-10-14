@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+    <script src="https://kit.fontawesome.com/a2e0b9d8a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="portfolio.css"/>
+  <meta name="description" content="Portfolio of Mohamed Kamal Al Aswad — AI Engineer, Frontend Developer, Embedded Systems Enthusiast.">
+<meta name="keywords" content="Mohamed Kamal Al Aswad, AI, Embedded Systems, Frontend Developer, Portfolio">
+
+
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#certificates">Certificates</a></li> 
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+      <div class="menu-icon" id="menuToggle">&#9776;</div>
+      <button class="mode-toggle" id="modeToggle" aria-label="Toggle color mode">☀️</button>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="hero reveal">
+    <div class="hero-content">
+      <img src="image/WhatsApp Image 2025-10-13 at 23.56.31_2d95f493.jpg" alt="Mohamed Kamal Al Aswad" class="hero-img reveal">
+      <div class="hero-text reveal">
+        <h1>Hi, I'm <span class="highlight">Mohamed Kamal Al Aswad</span></h1>
+        <h3><span class="typed-text"></span><span class="cursor">|</span></h3>
+
+        <p>I build responsive, modern websites and intelligent systems using AI & web technologies.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- ===== About Section ===== -->
+<section id="about" class="about reveal">
+  <h2>About Me</h2>
+  <p>
+    I'm <span class="highlight">Mohamed Kamal Al Aswad</span>, a student at the 
+    <strong>Faculty of Artificial Intelligence, Menoufia University – Shebin El Kom</strong>, 
+    majoring in <strong>Intelligent Systems Engineering</strong>.
+  </p>
+
+  <p>
+    I’m passionate about technology that connects intelligence with creativity.
+    I started my journey by learning <strong>Frontend Development</strong>, 
+    <strong>Embedded Systems</strong>, and exploring the fascinating world of 
+    <strong>Machine Learning</strong> and <strong>Deep Learning</strong>.
+  </p>
+
+  <p>
+    My goal is to combine my engineering mindset with AI to build 
+    smart, interactive, and efficient systems that make life easier and more connected.
+  </p>
+
+  <div class="about-info">
+    <ul>
+      <li><strong> Name:</strong> Mohamed Kamal Al Aswad</li>
+      <li><strong> Field:</strong> Intelligent Systems Engineering</li>
+      <li><strong> University:</strong> Menoufia University, Faculty of AI</li>
+      <li><strong> Interests:</strong> Frontend, Embedded Systems, Machine Learning, Deep Learning</li>
+    </ul>
+  </div>
+</section>
+
+
+ <!-- ===== Skills Section ===== -->
+<section id="skills" class="skills reveal">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fa-brands fa-html5"></i>
+      <h3>HTML</h3>
+      <p>Building structured and semantic layouts for modern websites.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-css3-alt"></i>
+      <h3>CSS</h3>
+      <p>Designing responsive, elegant, and animated interfaces.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-js"></i>
+      <h3>JavaScript</h3>
+      <p>Adding logic, interactivity, and functionality to web apps.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-microchip"></i>
+      <h3>Embedded Systems</h3>
+      <p>Programming microcontrollers like Arduino and ESP32 for real-world automation.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-python"></i>
+      <h3>Python</h3>
+      <p>AI applications, data analysis, and automation scripts.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-brain"></i>
+      <h3>Machine & Deep Learning</h3>
+      <p>Exploring intelligent systems that learn and adapt through data.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects Section ===== -->
+<section id="projects" class="projects reveal">
+  <h2>My Projects</h2>
+
+  <div class="projects-wrapper">
+    <!-- Project 1 -->
+    <div class="project-card small">
+      <img src="image/Screenshot 2025-10-13 155715.png" alt="My Portfolio Website">
+      <div class="project-body">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio site built using HTML, CSS & JS, featuring dark/light mode and smooth animations.</p>
+      </div>
+      <a href="#" target="_blank" class="project-btn">View </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card small">
+      <img src="image/Screenshot 2025-10-13 164817.png" alt="Image Processing App">
+      <div class="project-body">
+        <h3>Image Processing App</h3>
+        <p>A full-featured desktop app built with Python, OpenCV & CustomTkinter for real-time image manipulation.</p>
+      </div>
+      <a href="https://www.linkedin.com/posts/mohamed-al-aswad-499053349_python-opencv-imageprocessing-activity-7330962570926850049-du0P" 
+         target="_blank" class="project-btn">View on LinkedIn</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card small">
+      <img src="image/Screenshot 2025-10-13 165128.png" alt="LCD Dinosaur Game">
+      <div class="project-body">
+        <h3>LCD Dinosaur Game</h3>
+        <p>An LCD-based dinosaur game built using ATmega32 & C in Proteus, with custom CGRAM graphics and collision detection.</p>
+      </div>
+      <a href="https://www.linkedin.com/posts/mohamed-al-aswad-499053349_avr-embeddedsystems-cprogramming-activity-7361737931398545409-6qtE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFcJu_UBU4hmiWYkuIAYHlKQnhMbYvIVdwk" target="_blank" class="project-btn">View on LinkedIn</a>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card small">
+      <img src="image/Screenshot 2025-10-13 165042.png" alt="Traffic Light Controller">
+      <div class="project-body">
+        <h3>Traffic Light Controller</h3>
+        <p>A modular embedded system built with ATmega32 & C, simulating real-world traffic control logic using Proteus.</p>
+      </div>
+      <a href="https://www.linkedin.com/posts/mohamed-al-aswad-499053349_avr-embeddedsystems-cprogramming-activity-7351364764423389184-uOi6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFcJu_UBU4hmiWYkuIAYHlKQnhMbYvIVdwk" target="_blank" class="project-btn">View on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- ===== Certificates Section ===== -->
+<section id="certificates" class="certificates reveal">
+  <h2>Certificates & Achievements 🏅</h2>
+  <p class="cert-intro">
+    Here’s a collection of my technical and academic certifications in AI, Deep Learning, and Embedded Systems.
+  </p>
+
+  <div class="cert-grid">
+    
+    <!-- Certificate 1 -->
+    <div class="cert-card">
+      <img src="image/deep learing.jpeg" alt="Intro to Deep Learning Certificate">
+      <h3>Intro to Deep Learning – Kaggle</h3>
+      <p>Completed a hands-on introduction to deep learning, covering neural networks and backpropagation fundamentals.</p>
+      <a href="image/deep learing.jpeg" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <!-- Certificate 2 -->
+    <div class="cert-card">
+      <img src="image/computer vision.jpeg" alt="Computer Vision Certificate">
+      <h3>Computer Vision – Kaggle</h3>
+      <p>Explored essential computer vision techniques using convolutional neural networks and image augmentation in Python.</p>
+      <a href="image/computer vision.jpeg" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <!-- Certificate 3 -->
+    <div class="cert-card">
+      <img src="image/nividia.jpeg" alt="NVIDIA Deep Learning Certificate">
+      <h3>Getting Started with Deep Learning – NVIDIA DLI</h3>
+      <p>Learned practical deep learning concepts using TensorFlow and trained neural networks on real-world datasets.</p>
+      <a href="image/nividia.jpeg" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <!-- Certificate 4 -->
+    <div class="cert-card">
+      <img src="image/nti.jpeg" alt="NTI Embedded Systems Certificate">
+      <h3>Microcontroller-Based Systems – NTI</h3>
+      <p>Completed over 90 hours of training on Embedded C, AVR microcontrollers, GPIO, ADC, Timers, and communication protocols, 
+        with practical simulations in Proteus and soft skills sessions by ITIDA.</p>
+      <a href="image/nti.jpeg" target="_blank" class="cert-btn">View Certificate</a>
+    </div>
+
+    <!-- Certificate 5 (Placeholder) -->
+    <div class="cert-card">
+      <img src="image/iti.jpg" alt=""ITI Artificial Intelligence & Machine Learning Certificate">
+      <h3>Artificial Intelligence & Machine Learning – ITI</h3>
+      <p>Completed a 72-hour intensive program in Artificial Intelligence & Machine Learning 
+    at the Information Technology Institute (ITI - Creativa Menofia).  
+    The training covered <strong>AI Fundamentals</strong>, <strong>Probability & Statistics for ML</strong>, 
+    <strong>Linear Algebra & Optimization</strong>, <strong>Python for AI Development</strong>, 
+    <strong>Data Preparation</strong>, and <strong>Neural Networks & Deep Learning</strong>.  
+    This program strengthened my technical foundation and passion for real-world AI applications.</p>
+      <a href="image/iti.jpg" target="_blank" class="cert-btn disabled">View Certificate</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- ===== Contact Section ===== -->
+<section id="contact" class="contact reveal">
+  <h2>Contact Me</h2>
+  <p class="contact-intro">
+  “Have a project in mind or just want to connect? 
+  Let’s build something amazing together.”
+  </p>
+
+  <form id="contactForm" class="contact-form"
+      action="https://api.web3forms.com/submit"
+      method="POST">
+  
+  <!-- المفتاح الخاص بيك من Web3Forms -->
+  <input type="hidden" name="access_key" value="8a5ef3cf-2979-441e-bd9e-495a2b342d87">
+
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" required></textarea>
+  </div>
+  <button type="submit" class="btn">Send Message</button>
+  <p class="msg"></p>
+</form>
+
+
+</section>
+
+
+ <!-- ===== Footer ===== -->
+<footer>
+  <p>© 2025 Mohamed Kamal Al Aswad | All Rights Reserved</p>
+
+  <div class="social-links">
+    <a href="https://www.facebook.com/share/1BGC3u1ST2/" target="_blank" class="social-icon">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/al_aswad227?igsh=dGk1OWQzNWt6Z3lp" target="_blank" class="social-icon">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/mohamed-al-aswad-499053349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-icon">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://wa.me/201013773116" target="_blank" class="social-icon">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
